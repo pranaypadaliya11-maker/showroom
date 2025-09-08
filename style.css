@@ -1,0 +1,13 @@
+h1{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: firebrick;
+}
+pre{
+    font-size: medium;
+    font-style: italic;
+    color: blue;
+}
+body{
+    background-color: dimgrey;
+}
