@@ -1,13 +1,25 @@
 h1{
-    font-size: larger;
+    font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: firebrick;
 }
 pre{
     font-size: medium;
     font-style: italic;
-    color: blue;
+    color: bisque;
 }
 body{
-    background-color: dimgrey;
+    background-image: url(back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    font-size: xx-large;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+b{
+    font-size: xx-large;
+    font-style: oblique;
 }
