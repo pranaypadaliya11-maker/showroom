@@ -1,15 +1,11 @@
-h1{
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: firebrick;
-}
+
 pre{
     font-size: medium;
     font-style: italic;
     color: bisque;
 }
 body{
-    background-image: url(back.jpeg);
+    background-image: url(main.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,4 +18,37 @@ h2{
 b{
     font-size: xx-large;
     font-style: oblique;
+}
+h1 {
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: firebrick;
+}
+
+.button-group {
+  display: inline-block;
+}
+
+.btn {
+  margin-left: 100px;
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: red;
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  gap: 50px;  /* controls spacing between h1 and button group */
 }
